@@ -1,3 +1,9 @@
+#wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
 #bgimg{
     width: 1246px;
     height: 700px;
@@ -59,10 +65,6 @@ li{
 	background-color: pink;
 	display: inline;
 	position: relative;
-	
-	
-	
-	
 }
 
 
@@ -74,13 +76,9 @@ li{
 	position: relative;
 	top: 200px;
 	float: left;
->>>>>>> 1560e9ba55611e1d8619572d6539f48d8d48af7d
-
-
 }
 
 #onePic{
-<<<<<<< HEAD
   position: relative;
   border: outset;
   float: left;
@@ -90,7 +88,6 @@ li{
 }
 
 #twoPic{
-<<<<<<< HEAD
     border: inset red;
     width: 560px;
     height: 199px;
@@ -121,8 +118,6 @@ li{
 
 
 #footer{
-
-<<<<<<< HEAD
     width: 100%;
     height: 40px;
     background-color: lightgreen;
@@ -133,7 +128,6 @@ li{
 }
 
 iframe{
-<<<<<<< HEAD
     position: fixed;
     z-index: -99;
     top: 100px;
@@ -143,17 +137,11 @@ iframe{
 }
 
 #form{
-<<<<<<< HEAD
    position: relative;
    float: right;
    top: 100px;
 }
 
-
-#wrap{
-    width: 960px;
-    margin: 0 auto;
-}
 
 #quote{
     float:left;
