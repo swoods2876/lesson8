@@ -1,3 +1,156 @@
+#bgimg{
+    width: 1246px;
+    height: 700px;
+    z-index: -1;
+    position: fixed;
+    
+    margin: 0 auto;
+
+}
+
+body{
+    padding: 0 auto;
+}
+
+
+#header{
+   width: 100%;
+   height: 100px;
+   padding:0px;
+   background-color: lightblue;
+   position: relative;
+   
+}
+
+h1{
+background-color: lightgreen;
+width: 500px;
+height: 100px;
+padding: 0px;
+color: red;
+position: relative;
+float: left;
+padding-left: 20px;
+margin-top: 0;
+font-size: 80px;
+
+   
+}
+
+#myForm{
+    position: relative;
+    float: right;
+    top: 300px;
+}
+
+
+nav{
+   text-decoration: none;
+   position: relative;
+   background-color: lightyellow;
+   height: 40px;
+   width: 200px;
+   margin-top: 20px;
+   float: right;
+   right: 100px;
+   
+} 
+li{
+    background-color: pink;
+    display: inline;
+    position: relative;
+    
+    
+    
+    
+}
+
+
+#picBar{
+    width: 100%;
+    height: 210px;
+    background-color: transparent;
+    position: relative;
+    top: 200px;
+    float: left;
+
+
+}
+
+#onePic{
+  position: relative;
+  border: outset;
+  float: left;
+  margin-left: 10px;
+  height: 199px;
+ 
+
+
+}
+
+#twoPic{
+    border: inset red;
+    width: 560px;
+    height: 199px;
+    background-color: rgba(0,255,255,.4);
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    color: red;
+    font-size: 80px;
+    line-height: 0px;
+    text-align: center;
+    padding: 0 auto;
+
+
+    
+}  
+
+#threePic{
+    border: outset lightgreen;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    height: 199px;
+    overflow: hidden;
+    
+    
+
+}
+
+#footer{
+
+    width: 100%;
+    height: 40px;
+    background-color: lightgreen;
+    position: relative;
+    top: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+iframe{
+    position: fixed;
+    z-index: -99;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+
+}
+
+#form{
+   position: relative;
+   float: right;
+   top: 100px;
+
+
+}
+
+
+
 #wrap{
 	width: 960px;
 	margin: 0 auto;
