@@ -5,7 +5,6 @@
     position: fixed;
     
     margin: 0 auto;
-
 }
 
 body{
@@ -14,81 +13,84 @@ body{
 
 
 #header{
-   width: 100%;
-   height: 100px;
-   padding:0px;
-   background-color: lightblue;
-   position: relative;
-   
+    width: 100%;
+    height: 100px;
+    padding:0px;
+    background-color: lightblue;
+    position: relative;
+    
 }
 
 h1{
-background-color: lightgreen;
-width: 500px;
-height: 100px;
-padding: 0px;
-color: red;
-position: relative;
-float: left;
-padding-left: 20px;
-margin-top: 0;
-font-size: 80px;
+ background-color: lightgreen;
+ width: 500px;
+ height: 100px;
+ padding: 0px;
+ color: red;
+ position: relative;
+ float: left;
+ padding-left: 20px;
+ margin-top: 0;
+ font-size: 80px;
 
-   
+    
 }
 
 #myForm{
-    position: relative;
-    float: right;
-    top: 300px;
+	position: relative;
+	float: right;
+	top: 300px;
 }
 
 
-nav{
-   text-decoration: none;
-   position: relative;
-   background-color: lightyellow;
-   height: 40px;
-   width: 200px;
-   margin-top: 20px;
-   float: right;
-   right: 100px;
-   
+
+ nav{
+    text-decoration: none;
+    position: relative;
+    background-color: lightyellow;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    float: right;
+    right: 100px;
+    
 } 
 li{
-    background-color: pink;
-    display: inline;
-    position: relative;
-    
-    
-    
-    
+	background-color: pink;
+	display: inline;
+	position: relative;
+	
+	
+	
+	
 }
+
 
 
 #picBar{
-    width: 100%;
-    height: 210px;
-    background-color: transparent;
-    position: relative;
-    top: 200px;
-    float: left;
+	width: 100%;
+	height: 210px;
+	background-color: transparent;
+	position: relative;
+	top: 200px;
+	float: left;
+>>>>>>> 1560e9ba55611e1d8619572d6539f48d8d48af7d
 
 
 }
 
 #onePic{
+<<<<<<< HEAD
   position: relative;
   border: outset;
   float: left;
   margin-left: 10px;
   height: 199px;
- 
-
 
 }
 
 #twoPic{
+<<<<<<< HEAD
     border: inset red;
     width: 560px;
     height: 199px;
@@ -114,12 +116,13 @@ li{
     height: 199px;
     overflow: hidden;
     
-    
 
-}
+ }   
+
 
 #footer{
 
+<<<<<<< HEAD
     width: 100%;
     height: 40px;
     background-color: lightgreen;
@@ -127,44 +130,41 @@ li{
     top: 500px;
     padding-left: 10px;
     padding-right: 10px;
-
-
 }
 
 iframe{
+<<<<<<< HEAD
     position: fixed;
     z-index: -99;
     top: 100px;
     left: 100px;
     width: 300px;
     height: 300px;
-
 }
 
 #form{
+<<<<<<< HEAD
    position: relative;
    float: right;
    top: 100px;
-
-
 }
-
 
 
 #wrap{
-	width: 960px;
-	margin: 0 auto;
+    width: 960px;
+    margin: 0 auto;
 }
 
 #quote{
-	float:left;
-	font-family: verdana;
-	font-size: 25px;
-	font-weight: bold;
-	width: 50%;
+    float:left;
+    font-family: verdana;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
 }
 
 #moneySelection{
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
+
