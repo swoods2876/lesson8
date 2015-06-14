@@ -23,7 +23,7 @@ body{
     width: 100%;
     height: 100px;
     padding:0px;
-    background-color: lightblue;
+    background-color: rgba(92,171,255,1);
     position: relative;
     border-bottom: 10px lightgreen solid;
     
@@ -31,7 +31,6 @@ body{
 
 h1{
  width: 50%;
- height: 100px;
  padding-left: 10px;
  font-family: 'Orbitron', sans-serif;
  color: red;
@@ -40,6 +39,7 @@ h1{
  /*padding-left: 20px;*/
  margin-top: 5px;
  font-size: 70px;
+ margin-bottom: 0px;
 
     
 }
@@ -69,6 +69,30 @@ nav ul li{
 
 nav ul li a {
     text-decoration: none;
+    color: black;
+}
+
+#mainContent{
+    width: 100%;
+    height: 210px;
+    float: left;
+    background-color: rgba(92,171,255,.4);
+}
+
+#help{
+    font-family: Verdana;
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.twoP{
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 
