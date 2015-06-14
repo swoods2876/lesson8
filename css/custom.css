@@ -265,11 +265,14 @@ iframe{
     font-family: verdana;
     font-size: 25px;
     font-weight: bold;
-    width: 50%;
+    width: 40%;
+    margin-top: 100px;
 }
 
 #moneySelection{
     float: left;
-    width: 50%;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 
