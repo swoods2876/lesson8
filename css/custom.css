@@ -3,14 +3,15 @@
     margin: 0 auto;
 }
 
+#bckgrndPix{
+    z-index: -1;
+    position: fixed; 
+    margin: 0 auto;
+}
 
 #bgimg{
-    width: 1246px;
+    width: 960px;
     height: 700px;
-    z-index: -1;
-    position: fixed;
-    
-    margin: 0 auto;
 }
 
 body{
@@ -24,47 +25,50 @@ body{
     padding:0px;
     background-color: lightblue;
     position: relative;
+    border-bottom: 10px lightgreen solid;
     
 }
 
 h1{
- background-color: lightgreen;
- width: 500px;
+ width: 50%;
  height: 100px;
- padding: 0px;
+ padding-left: 10px;
+ font-family: 'Orbitron', sans-serif;
  color: red;
- position: relative;
+ /*position: relative;*/
  float: left;
- padding-left: 20px;
- margin-top: 0;
- font-size: 80px;
+ /*padding-left: 20px;*/
+ margin-top: 5px;
+ font-size: 70px;
 
     
 }
-
-#myForm{
-	position: relative;
-	float: right;
-	top: 300px;
-}
-
-
 
  nav{
-    text-decoration: none;
-    position: relative;
-    background-color: lightyellow;
-    height: 40px;
-    width: 200px;
-    margin-top: 20px;
+    height: 50px;
+    width: 35%;
+   /* margin-top: 20px;*/
     float: right;
-    right: 100px;
+    padding-left: 90px;
+
     
 } 
-li{
-	background-color: pink;
-	display: inline;
-	position: relative;
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+
+}
+
+nav ul li{
+	float: left;
+    font-family: Verdana;
+    font-size: 25px;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
 
 
@@ -134,6 +138,12 @@ iframe{
     left: 100px;
     width: 300px;
     height: 300px;
+}
+
+#myForm{
+    position: relative;
+    float: right;
+    top: 300px;
 }
 
 #form{
