@@ -6,11 +6,18 @@
         <link rel="stylesheet" href="css/custom.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="javascript/scripts.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css"/>
+<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px") href="css/tablet.css"/>
+<link rel="stylesheet" media="only screen and (min-width: 961px") href="css/desktop.css"/>
+<meta name= "viewpoint" content="initial-scale=1">
     </head>
     
     <body>
-        <img src="images/bgimg.jpg" id="bgimg">
-        <div id="wrap">
+        <div id="wrap">  
+            
+            <div id="bckgrndPix"><img src="images/bgimg.jpg" id="bgimg"></div> 
+
             <div id="header">
                 <h1>SOUPerteer</h1>
                 <nav>
@@ -22,25 +29,43 @@
 
             </div>
 
+            <div id="mainContent">
+                <p id="help">Help us feed hungry New Yorkers.</p>
+
+                <p class="twoP">Donate what you have. </p>
+
+                <p class="twoP">If you have time, volunteer. If you have money, donate.</p>
+
+            </div>
+
             
 
             <div id="picBar">
                 <div id="onePic">
                     <a href="map.html" id="map1"><img src="images/souptr.jpg"></a>
+
+                    <div id="pbVolunteer"><p>Volunteer</p></div>
+               
                 </div>
 
-                <div id="twoPic">
+
+                <!-- <div id="twoPic">
                     <p>DONATE</p>
                     <p>VOLUNTEER</p>
-                </div>
+                </div> -->
 
                 <div id="threePic">
                     <a href="donate.html" id="donate1"><img src="images/Foodmoney.jpg"></a>
+
+                    <div id="pbDonate"><p>Donate</p></div>
+                
                 </div>
+            
             </div>
+             
               <div id="footer">
                   <p> this a paragraph</p>
-            </div>
+              </div>
 
         </div>    <!--wrap end-->
 

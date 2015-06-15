@@ -3,14 +3,15 @@
     margin: 0 auto;
 }
 
+#bckgrndPix{
+    z-index: -1;
+    position: fixed; 
+    margin: 0 auto;
+}
 
 #bgimg{
-    width: 1246px;
+    width: 960px;
     height: 700px;
-    z-index: -1;
-    position: fixed;
-    
-    margin: 0 auto;
 }
 
 body{
@@ -22,25 +23,27 @@ body{
     width: 100%;
     height: 100px;
     padding:0px;
-    background-color: lightblue;
+    background-color: rgba(92,171,255,1);
     position: relative;
+    border-bottom: 10px lightgreen solid;
     
 }
 
 h1{
- background-color: lightgreen;
- width: 500px;
- height: 100px;
- padding: 0px;
+ width: 50%;
+ padding-left: 10px;
+ font-family: 'Orbitron', sans-serif;
  color: red;
- position: relative;
+ /*position: relative;*/
  float: left;
- padding-left: 20px;
- margin-top: 0;
- font-size: 80px;
+ /*padding-left: 20px;*/
+ margin-top: 5px;
+ font-size: 70px;
+ margin-bottom: 0px;
 
     
 }
+
 
 #myForm{
 	position: relative;
@@ -57,44 +60,137 @@ h1{
 
 
 
+
  nav{
-    text-decoration: none;
-    position: relative;
-    background-color: lightyellow;
-    height: 40px;
-    width: 200px;
-    margin-top: 20px;
+    height: 50px;
+    width: 35%;
+   /* margin-top: 20px;*/
     float: right;
-    right: 100px;
+    padding-left: 90px;
+
     
 } 
-li{
-	background-color: pink;
-	display: inline;
-	position: relative;
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+
+}
+
+nav ul li{
+	float: left;
+    font-family: Verdana;
+    font-size: 25px;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#mainContent{
+    width: 100%;
+    height: 210px;
+    float: left;
+    background-color: rgba(92,171,255,.4);
+}
+
+#help{
+    font-family: Verdana;
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.twoP{
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 
 #picBar{
 	width: 100%;
-	height: 210px;
+	/*height: 210px;
 	background-color: transparent;
 	position: relative;
-	top: 200px;
+	top: 200px;*/
 	float: left;
+
 }
 
 #onePic{
+  border: outset white 5px;
   position: relative;
-  border: outset;
   float: left;
-  margin-left: 10px;
+  top: 10px;
+  left: 165px;
+  margin: 10px;
   height: 199px;
+
 
 }
 
-#twoPic{
+#pbVolunteer{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(255,255,255,.5);
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 100px;
+    z-index: 2;
+    clear: left;
+    width: 200px;
+
+
+}
+
+#pbVolunteer p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}    
+
+#threePic{
+    border: outset white 5px;
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 165px;
+    margin: 10px;
+    height: 199px;
+    /*overflow: hidden;*/
+    
+
+ }   
+
+ #pbDonate{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(255,255,255,.5);
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 100px;
+    z-index: 2;
+    clear: left;
+    width: 200px;
+
+
+}
+
+#pbDonate p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}    
+
+/*#twoPic{
     border: inset red;
     width: 560px;
     height: 199px;
@@ -106,48 +202,79 @@ li{
     font-size: 80px;
     line-height: 0px;
     text-align: center;
-    padding: 0 auto;
+    padding: 0 auto;*/
 
 
     
 }  
 
-#threePic{
-    border: outset lightgreen;
-    position: relative;
-    float: left;
-    margin-left: 30px;
-    height: 199px;
-    overflow: hidden;
-    
-
- }   
-
 
 #footer{
+
+    margin: 0px;
+    padding: 0px;
     width: 100%;
+    border: 20px solid black;
+
+    /*width: 100%;
     height: 40px;
     background-color: lightgreen;
+    clear: left;
     position: relative;
     top: 500px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px;*/
+}
+
+#KichenContent{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+#kitch{
+    font-family: Verdana;
+    font-size: 35px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+#find{
+    float: left;
+    margin-top: 0px;
+    width: 100%;
+}
+
+#map{
+    float: left;
+    margin-left: 90px;
+    margin-top: 40px;
+    
 }
 
 iframe{
-    position: fixed;
+    /*position: fixed;*/
     z-index: -99;
-    top: 100px;
-    left: 100px;
+    /*top: 100px;
+    left: 100px;*/
     width: 300px;
     height: 300px;
 }
 
-#form{
-   position: relative;
-   float: right;
-   top: 100px;
+#myForm{
+    /*position: relative;
+    top: 300px;*/
+    float: left;
+    margin-top: 140px;
+    margin-left: 100px;
 }
+
+/*#form{
+   position: relative;
+   float: left;
+   top: 100px;
+}*/
 
 
 #quote{
@@ -155,11 +282,14 @@ iframe{
     font-family: verdana;
     font-size: 25px;
     font-weight: bold;
-    width: 50%;
+    width: 40%;
+    margin-top: 100px;
 }
 
 #moneySelection{
     float: left;
-    width: 50%;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 
