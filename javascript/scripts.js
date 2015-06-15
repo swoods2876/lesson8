@@ -15,6 +15,6 @@ function myFunction() {
     if (Blah.checkValidity() == false) {
         document.getElementById("Zip").innerHTML = Blah.validationMessage;
     } else {
-        document.getElementById("Zip").innerHTML = "Input OK";
+        document.getElementById("Zip").innerHTML = "Thank You SOUPerteer";
     } 
 } 
