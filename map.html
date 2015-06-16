@@ -2,10 +2,15 @@
 <html>
 	<head>
 		<title>SOUPerteer</title>
-        <link rel="stylesheet" href="css/custom.css">
+        <!--<link rel="stylesheet" href="css/custom.css">-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="javascript/scripts.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css"/>
+        <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 959px") href="css/tablet.css"/>
+       <link rel="stylesheet" media="only screen and (min-width: 960px") href="css/custom.css"/>
+        <meta name= "viewpoint" content="initial-scale=1">
 	</head>
 	
 	<body>
@@ -40,43 +45,41 @@
                     	<button onclick="myFunction()">Name</button>
                     	<p></p>
                    	 </form>
-                <!--First name:<br>
-				<input type="text" name="firstname">
-                <br>
-                 Zip Code:<br>
-                <input type="text" name="lastname">
-                 <br>
-                 Email:<br>
-                <input type="text" name="lastname">
-                <br><br>
-                <input type="submit">
-                </form> -->
+                	<!--First name:<br>
+					<input type="text" name="firstname">
+                	<br>
+                 	Zip Code:<br>
+                	<input type="text" name="lastname">
+                 	<br>
+                 	Email:<br>
+                	<input type="text" name="lastname">
+                	<br><br>
+                	<input type="submit">
+                	</form> -->
 
-
-                <input id="Email" name="Email" type="text">
-                <button onclick="myFunction()">Email</button>
-
-                <input id="Zipcode" name="zip Code" type="number" min="10000">
-                <button onclick="myFunction()">Zip Code</button>
-                <p id="Zip">Please Enter a Zip Code</p>
-
-		   </div>
-
-                	<p>Enter a Zip Code</p>
+                	<input id="Email" name="Email" type="text">
+                	<button onclick="myFunction()">Email</button>
 
                 	<input id="Zipcode" name="zip Code" type="number" min="10000">
                 	<button onclick="myFunction()">Zip Code</button>
-                	<!--<p>If the number is less than 9999, an error message will be displayed.</p>
-                	<p id="Zip"></p>-->
-                </div>
-			</div>
+                	<p id="Zip">Please Enter a Zip Code</p>
 
+		  		</div>
+
+                	<!--<p>Enter a Zip Code</p>
+
+                	<input id="Zipcode" name="zip Code" type="number" min="10000">
+                	<button onclick="myFunction()">Zip Code</button>
+                	<p>If the number is less than 9999, an error message will be displayed.</p>
+                	<p id="Zip"></p>-->
+            </div>
 
 			<div id="answer">
 			</div>
 
-			<div id="footer">
-			</div>
+			 <div id="footer">
+                  <p>Thank You</p>
+              </div>
 
 		</div> <!--wrap end-->
 
