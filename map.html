@@ -17,6 +17,12 @@
 
 		<div id="wrap">
 
+			<div id="lightbox">
+		  		<div id="thankYou">
+		  			<h1>Congratulations</h1>
+		  		</div>
+		  	</div>
+
 			<div id="header">
                 <h1>SOUPerteer</h1>				
 
@@ -42,37 +48,23 @@
 				<div id="myForm">
 					<form name="myForm" action="congrat.html" onsubmit="return validateForm()" method="post" type="text" value="Some Value">
                     	<input type="text" name="name" placeholder="name" text="name">
-                    	<button onclick="myFunction()">Name</button>
-                    	<p></p>
-                   	 </form>
-                	<!--First name:<br>
-					<input type="text" name="firstname">
-                	<br>
-                 	Zip Code:<br>
-                	<input type="text" name="lastname">
-                 	<br>
-                 	Email:<br>
-                	<input type="text" name="lastname">
-                	<br><br>
-                	<input type="submit">
-                	</form> -->
+                    	
+                    	<button id="Name">Name</button>
+                   
+                   	</form>
 
-                	<input id="Email" name="Email" type="text">
-                	<button onclick="myFunction()">Email</button>
+
+	               	<input id="Email" name="Email" type="text">
+                	<button>Email</button>
 
                 	<input id="Zipcode" name="zip Code" type="number" min="10000">
-                	<button onclick="myFunction()">Zip Code</button>
+                	<button id="Zip" onclick="myFunction()">Zip Code</button>
                 	<p id="Zip">Please Enter a Zip Code</p>
 
 		  		</div>
 
-                	<!--<p>Enter a Zip Code</p>
 
-                	<input id="Zipcode" name="zip Code" type="number" min="10000">
-                	<button onclick="myFunction()">Zip Code</button>
-                	<p>If the number is less than 9999, an error message will be displayed.</p>
-                	<p id="Zip"></p>-->
-            </div>
+          	</div>
 
 			<div id="answer">
 			</div>

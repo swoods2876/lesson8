@@ -82,7 +82,14 @@ nav ul li{
     font-family: Verdana;
     font-size: 25px;
     padding: 20px;
+    border-radius: 15%;
+
 }
+
+nav ul li:hover {
+    Background: white
+}
+
 
 nav ul li a {
     text-decoration: none;
@@ -209,7 +216,7 @@ nav ul li a {
 }  
 
 
-#footer{
+/*#footer{
 
     margin: 0px;
     padding: 0px;
@@ -278,6 +285,36 @@ iframe{
 
 }
 
+input {
+    margin: 5px;
+}
+
+#lightbox{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    background: rgba(0,0,0,.9);
+    display: none;
+}
+
+#thankYou{
+    width: 65%;
+    height: 50%;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+
+}
+
+#thankYou h1{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 /*#form{
    position: relative;
    float: left;
@@ -290,16 +327,28 @@ iframe{
     font-family: verdana;
     font-size: 25px;
     font-weight: bold;
-    width: 40%;
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 20px;
+    margin: 0 auto;
 }
 
 #moneySelection{
     float: left;
-    width: 40%;
+    width: 100%;
     margin-top: 100px;
     margin-left: 40px;
 }
+
+#submit{
+    float: left;
+    margin-left: 100px;
+}
+
+#shopb{
+    float: left;
+    margin-left: 60px;
+}
+
 
 #footer{
 width: 100%;
